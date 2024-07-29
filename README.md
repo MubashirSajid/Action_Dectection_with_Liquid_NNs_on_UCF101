@@ -20,6 +20,5 @@ Trying to add attention map from Liquid NN
 # Main6.py
 Same as Main4 but without resnet 18. Instead own conv layers used
 
-
-
-#### Right now there is no way to evaluate how well the model is performing
+# Training the model
+Just run the model_on_UCF101.py in training to train LTC model. You need to download and put the UCF-101 data in trainin folder. The implementation for LSTM and GRU is also done.
